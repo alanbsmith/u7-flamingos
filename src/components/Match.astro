@@ -70,20 +70,16 @@ const formattedTime = dayjs(date).format('h:mma');
   }
 
   .match__info {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1rem 1fr;
+    gap: 0.5rem;
     color: #fff;
     font-size: 1rem;
-    justify-content: space-between;
-  }
-
-  .match__info span {
-    flex: 1;
   }
 
   .vs {
     display: flex;
     justify-content: center;
-    flex: 0;
   }
 
   .away {
