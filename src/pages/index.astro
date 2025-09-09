@@ -9,13 +9,14 @@ import Layout from '../layouts/Layout.astro';
 			<div>Pink Flamingo</div>
 			<div class="home-subtitle">soccer club</div>
 		</h1>
+		<p class="home-tagline">Welcome to the flock.</p>
 	</section>
 </Layout>
 <style>
 	.home {
 		display: flex;
 		flex-direction: column;
-		gap: 2rem;
+		gap: 4rem;
 		align-items: center;
 		justify-content: center;
 		background-color: rgba(255,0,234, 0.1);
@@ -42,4 +43,11 @@ import Layout from '../layouts/Layout.astro';
 		margin-inline-end: -0.5rem;
 	}
 
+	.home-tagline {
+		color: #fff;
+		font-weight: 300;
+		font-style: italic;
+		margin: 0;
+		opacity: 0.6;
+	}
 </style>
