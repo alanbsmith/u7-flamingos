@@ -1,0 +1,33 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.astro'
+import Player from '../components/Player.astro'
+
+import players from '../../data/players.json';
+const sortedPlayers = players.sort((a,b) => a.number.localeCompare(b.number))
+---
+
+<Layout>
+	<Hero title="Players" />
+  <section class="players container">
+    <ul class="player-list">
+      {sortedPlayers.map((player) => (
+        <Player {...player} />
+      ))}
+    </ul>
+  </section>
+</Layout>
+<style>
+  .players {
+		padding-bottom: 5rem;
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+	}
+
+	.player-list {
+		display: flex;
+		flex-direction: column;
+    max-width: 48rem;
+	}
+</style>

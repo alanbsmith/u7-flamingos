@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "matchWeek": 1,
+    "date": "09-06-2025 11:00:00",
+    "homeTeam": "Pink Flamingos",
+    "awayTeam": "Team Shippy",
+    "homeScore": null,
+    "awayScore": null,
+    "status": "active"
+  },
+  {
+    "id": "2",
+    "matchWeek": 2,
+    "date": "09-13-2025 10:00:00",
+    "homeTeam": "Team Wadley",
+    "awayTeam": "Pink Flamingos",
+    "homeScore": null,
+    "awayScore": null,
+    "status": "active"
+  },
+  {
+    "id": "3",
+    "matchWeek": 3,
+    "date": "09-20-2025 9:00:00",
+    "homeTeam": "Pink Flamingos",
+    "awayTeam": "Team McCourt",
+    "homeScore": null,
+    "awayScore": null,
+    "status": "active"
+  },
+  {
+    "id": "4",
+    "matchWeek": 4,
+    "date": "09-27-2025 10:00:00",
+    "homeTeam": "Team Clement",
+    "awayTeam": "Pink Flamingos",
+    "homeScore": null,
+    "awayScore": null,
+    "status": "active"
+  },
+  {
+    "id": "5",
+    "matchWeek": 5,
+    "date": "10-04-2025 10:00:00",
+    "homeTeam": "Pink Flamingos",
+    "awayTeam": "Team Nunnally / Delgado",
+    "homeScore": null,
+    "awayScore": null,
+    "status": "active"
+  },
+  {
+    "id": "6",
+    "matchWeek": 6,
+    "date": "10-11-2025 12:00:00",
+    "homeTeam": "Team Hankins / Huey",
+    "awayTeam": "Pink Flamingos",
+    "homeScore": null,
+    "awayScore": null,
+    "status": "active"
+  },
+  {
+    "id": "7",
+    "matchWeek": 7,
+    "date": "10-18-2025 11:00:00",
+    "homeTeam": "Team North",
+    "awayTeam": "Pink Flamingos",
+    "homeScore": null,
+    "awayScore": null,
+    "status": "active"
+  }
+]

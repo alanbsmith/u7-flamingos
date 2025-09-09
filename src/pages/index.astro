@@ -1,0 +1,45 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout>
+	<section class="home">
+		<img class="home-crest" src="pink-flamingo-sc-logo.svg" alt="pink flamingo soccer club crest"/>
+		<h1 class="home-title">
+			<div>Pink Flamingo</div>
+			<div class="home-subtitle">soccer club</div>
+		</h1>
+	</section>
+</Layout>
+<style>
+	.home {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+		align-items: center;
+		justify-content: center;
+		background-color: rgba(255,0,234, 0.1);
+		min-height: calc(100vh - 5rem);
+	}
+
+	.home-crest {
+		height: 20rem;
+	}
+
+	.home-title {
+		font-size: 2.125rem;
+		color: var(--color-accent-default);
+		margin: 0;
+		text-align: center;
+	}
+
+	.home-subtitle {
+		color: #fff;
+		font-weight: 300;
+		text-transform: uppercase;
+		font-size: 1.25rem;
+		letter-spacing: 0.5rem;
+		margin-inline-end: -0.5rem;
+	}
+
+</style>

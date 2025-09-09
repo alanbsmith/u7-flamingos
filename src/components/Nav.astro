@@ -1,0 +1,74 @@
+<nav class="main-nav">
+	<ul class="main-nav__list container">
+		<li class="main-nav__list-item"><a class="main-nav__link" href="/">Home</a></li>
+    <li class="main-nav__list-item"><a class="main-nav__link" href="/matches">Matches</a></li>
+    <li class="main-nav__list-item"><a class="main-nav__link" href="/players">Players</a></li>
+  </ul>
+</nav>
+<script>
+  const navLinks = document.getElementsByClassName("main-nav__link");
+  Array.from(navLinks).forEach((link) => {
+    if (link instanceof HTMLAnchorElement) {
+      const isActiveLink = link.pathname.replaceAll('/', '') === window.location.pathname.replaceAll('/', '');
+      if (isActiveLink) {
+        link.classList.add("active");
+      } else {
+        link.classList.remove("active");
+      }
+    }
+  });
+</script>
+<style>
+	.main-nav {
+		position: fixed;
+		bottom: 0;
+		inset-inline-start: 0;
+		inset-inline-end: 0;
+		z-index: 1;
+    backdrop-filter: blur(2rem);
+    border-top: solid 0.125rem #ff00ea;
+    backdrop-filter: blur(2rem);
+	}
+	
+	.main-nav__list {
+		padding: 1rem;
+		display: flex;
+		gap: 2rem;
+		list-style: none;
+		flex: 1;
+    justify-content: space-between;
+    height: 4rem;
+    min-height: 5rem;
+    align-items: center;
+	}
+
+  .main-nav__list-item {
+    color: rgba(255,0,234, 0.85);
+    flex: 1;
+    text-align: center;
+  }
+
+	.main-nav__link {
+		color: var(--color-accent-soft);
+    font-size: 1.25rem;
+    font-weight: 300;
+    padding: 0.25rem;
+    text-decoration: none;
+    transition: all 300ms ease;
+    flex: 1;
+	}
+
+	.main-nav__link:active,
+  .main-nav__link.active,
+  .main-nav__link:hover {
+    border-bottom: solid 0.125rem var(--color-accent-default);
+    color: var(--color-accent-default);
+  }
+
+  .main-nav__link:focus {
+    border-radius: 0.25rem;
+    border: none;
+    color: var(--color-accent-default);
+    outline: solid 0.125rem var(--color-accent-default);
+  }
+</style>

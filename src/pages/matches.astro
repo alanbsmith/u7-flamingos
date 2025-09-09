@@ -1,0 +1,31 @@
+---
+import Layout from '../layouts/Layout.astro';
+import matches from '../../data/matches.json';
+
+import Hero from '../components/Hero.astro'
+import Match from '../components/Match.astro'
+---
+
+<Layout>
+  <Hero title="Matches" />
+  <section class="matches container">
+    <ul class="match-list">
+      {matches.map(match => (
+        <Match {...match} />
+      ))}
+    </ul>
+  </section>
+</Layout>
+<style>
+	.matches {
+		padding-bottom: 5rem;
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+	}
+
+	.match-list {
+		display: flex;
+		flex-direction: column;
+	}
+</style>

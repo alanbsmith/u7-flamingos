@@ -1,0 +1,14 @@
+[
+  { "firstName": "Ava", "lastName": "Beitzel", "number": "04" },
+  { "firstName": "Vera", "lastName": "Coster", "number": "06" },
+  { "firstName": "Rosie", "lastName": "Dimond", "number": "11" },
+  { "firstName": "Levi", "lastName": "Ericson", "number": "02" },
+  { "firstName": "Emery", "lastName": "Hall", "number": "10" },
+  { "firstName": "Sylvia", "lastName": "Hass", "number": "00" },
+  { "firstName": "Elijah", "lastName": "Louth", "number": "07" },
+  { "firstName": "Mason", "lastName": "Moore", "number": "01" },
+  { "firstName": "Eloise", "lastName": "Oliver", "number": "03" },
+  { "firstName": "Georgia", "lastName": "Sayers", "number": "05" },
+  { "firstName": "Jack", "lastName": "Seibel", "number": "08" },
+  { "firstName": "Paige", "lastName": "Smith", "number": "09" }
+]
