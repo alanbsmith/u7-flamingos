@@ -7,7 +7,8 @@
     "awayTeam": "Team Shippy",
     "homeScore": null,
     "awayScore": null,
-    "status": "active"
+    "status": "active",
+    "location": "Civic Green #4"
   },
   {
     "id": "2",
@@ -17,7 +18,8 @@
     "awayTeam": "Pink Flamingos",
     "homeScore": null,
     "awayScore": null,
-    "status": "active"
+    "status": "active",
+    "location": "Civic Green #3"
   },
   {
     "id": "3",
@@ -27,7 +29,8 @@
     "awayTeam": "Team McCourt",
     "homeScore": null,
     "awayScore": null,
-    "status": "active"
+    "status": "active",
+    "location": "Civic Green #3"
   },
   {
     "id": "4",
@@ -37,7 +40,8 @@
     "awayTeam": "Pink Flamingos",
     "homeScore": null,
     "awayScore": null,
-    "status": "active"
+    "status": "active",
+    "location": "Civic Green #3"
   },
   {
     "id": "5",
@@ -47,7 +51,8 @@
     "awayTeam": "Team Nunnally / Delgado",
     "homeScore": null,
     "awayScore": null,
-    "status": "active"
+    "status": "active",
+    "location": "Civic Green #4"
   },
   {
     "id": "6",
@@ -57,7 +62,8 @@
     "awayTeam": "Pink Flamingos",
     "homeScore": null,
     "awayScore": null,
-    "status": "active"
+    "status": "active",
+    "location": "Civic Green #4"
   },
   {
     "id": "7",
@@ -67,6 +73,7 @@
     "awayTeam": "Pink Flamingos",
     "homeScore": null,
     "awayScore": null,
-    "status": "active"
+    "status": "active",
+    "location": "Civic Green #4"
   }
 ]
